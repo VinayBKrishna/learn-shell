@@ -13,7 +13,7 @@ exampleFunction
 
 
 example2Funtion(){
-  echo @a + "---" + @# + "are the arguments"
+  echo "$@" + "---" + '$#' + "$#" + "are the arguments"
 }
 
 example2Funtion 1 2 3 4 5
