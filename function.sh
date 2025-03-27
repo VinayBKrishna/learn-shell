@@ -17,3 +17,12 @@ example2Funtion(){
 }
 
 example2Funtion 1 2 3 4 5
+
+
+example3(){
+  echo "$@" + "-----" + "${@[0]}"
+}
+
+fruits=('apple','banana','mango')
+
+example3 fruits
