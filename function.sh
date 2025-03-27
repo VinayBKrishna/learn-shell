@@ -8,3 +8,5 @@ echo  component
 exampleFunction (){
   echo 'this is an example funciton'
 }
+
+exampleFunction
